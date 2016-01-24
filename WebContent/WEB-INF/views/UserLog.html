@@ -1,0 +1,1980 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>HTML Layout Example</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 13 11:48:43 EST 2014<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1439</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.ejb.Version category">org.hibernate.ejb.Version</td>
+<td>Version.java:15</td>
+<td title="Message">Hibernate EntityManager 3.2.0.GA</td>
+</tr>
+
+<tr>
+<td>1466</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.Version category">org.hibernate.cfg.annotations.Version</td>
+<td>Version.java:15</td>
+<td title="Message">Hibernate Annotations 3.2.0.GA</td>
+</tr>
+
+<tr>
+<td>1477</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
+<td>Environment.java:500</td>
+<td title="Message">Hibernate 3.2.0</td>
+</tr>
+
+<tr>
+<td>1483</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
+<td>Environment.java:533</td>
+<td title="Message">hibernate.properties not found</td>
+</tr>
+
+<tr>
+<td>1486</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
+<td>Environment.java:667</td>
+<td title="Message">Bytecode provider name : cglib</td>
+</tr>
+
+<tr>
+<td>1491</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
+<td>Environment.java:584</td>
+<td title="Message">using JDK 1.4 java.sql.Timestamp handling</td>
+</tr>
+
+<tr>
+<td>2123</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.UserRoles</td>
+</tr>
+
+<tr>
+<td>2176</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.UserRoles on table trading_user_roles</td>
+</tr>
+
+<tr>
+<td>2247</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.request.Request</td>
+</tr>
+
+<tr>
+<td>2248</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.request.Request on table REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>2255</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.User</td>
+</tr>
+
+<tr>
+<td>2256</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.User on table trading_user</td>
+</tr>
+
+<tr>
+<td>2403</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.CollectionBinder category">org.hibernate.cfg.annotations.CollectionBinder</td>
+<td>CollectionBinder.java:581</td>
+<td title="Message">Mapping collection: com.fdmgroup.User.User.role -&gt; trading_user_roles</td>
+</tr>
+
+<tr>
+<td>2464</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:50</td>
+<td title="Message">C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE</td>
+</tr>
+
+<tr>
+<td>2465</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:51</td>
+<td title="Message">Connection properties: {user=williamwellspring, password=****, autocommit=true, release_mode=auto}</td>
+</tr>
+
+<tr>
+<td>2466</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:54</td>
+<td title="Message">autocommit mode: true</td>
+</tr>
+
+<tr>
+<td>2493</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.mchange.v2.log.MLog category">com.mchange.v2.log.MLog</td>
+<td>MLog.java:80</td>
+<td title="Message">MLog clients using log4j logging.</td>
+</tr>
+
+<tr>
+<td>2662</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.mchange.v2.c3p0.C3P0Registry category">com.mchange.v2.c3p0.C3P0Registry</td>
+<td>C3P0Registry.java:204</td>
+<td title="Message">Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]</td>
+</tr>
+
+<tr>
+<td>2720</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource category">com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource</td>
+<td>AbstractPoolBackedDataSource.java:462</td>
+<td title="Message">Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d58eaf82 [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@8a730dab [ acquireIncrement -&gt; 1, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 2s30hh90c9088w1s8bhc6|1a631c2, idleConnectionTestPeriod -&gt; 3000, initialPoolSize -&gt; 2, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 300, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 3, maxStatements -&gt; 50, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 2, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@870824b5 [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|1c64ed8, jdbcUrl -&gt; jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE, properties -&gt; {user=******, password=******, autocommit=true, release_mode=auto} ], preferredTestQuery -&gt; null, propertyCycle -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|154c054, numHelperThreads -&gt; 3 ]</td>
+</tr>
+
+<tr>
+<td>3852</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:81</td>
+<td title="Message">RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production</td>
+</tr>
+
+<tr>
+<td>3853</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:82</td>
+<td title="Message">JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0</td>
+</tr>
+
+<tr>
+<td>3932</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.dialect.Dialect category">org.hibernate.dialect.Dialect</td>
+<td>Dialect.java:141</td>
+<td title="Message">Using dialect: org.hibernate.dialect.OracleDialect</td>
+</tr>
+
+<tr>
+<td>3940</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionFactoryFactory category">org.hibernate.transaction.TransactionFactoryFactory</td>
+<td>TransactionFactoryFactory.java:34</td>
+<td title="Message">Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory</td>
+</tr>
+
+<tr>
+<td>3943</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionManagerLookupFactory category">org.hibernate.transaction.TransactionManagerLookupFactory</td>
+<td>TransactionManagerLookupFactory.java:33</td>
+<td title="Message">No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)</td>
+</tr>
+
+<tr>
+<td>3944</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:134</td>
+<td title="Message">Automatic flush during beforeCompletion(): disabled</td>
+</tr>
+
+<tr>
+<td>3945</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:138</td>
+<td title="Message">Automatic session close at end of transaction: disabled</td>
+</tr>
+
+<tr>
+<td>3946</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:145</td>
+<td title="Message">JDBC batch size: 15</td>
+</tr>
+
+<tr>
+<td>3946</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:148</td>
+<td title="Message">JDBC batch updates for versioned data: disabled</td>
+</tr>
+
+<tr>
+<td>3948</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:153</td>
+<td title="Message">Scrollable result sets: enabled</td>
+</tr>
+
+<tr>
+<td>3949</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:161</td>
+<td title="Message">JDBC3 getGeneratedKeys(): disabled</td>
+</tr>
+
+<tr>
+<td>3950</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:169</td>
+<td title="Message">Connection release mode: auto</td>
+</tr>
+
+<tr>
+<td>3952</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:196</td>
+<td title="Message">Default batch fetch size: 1</td>
+</tr>
+
+<tr>
+<td>3953</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:200</td>
+<td title="Message">Generate SQL with comments: enabled</td>
+</tr>
+
+<tr>
+<td>3954</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:204</td>
+<td title="Message">Order SQL updates by primary key: disabled</td>
+</tr>
+
+<tr>
+<td>3955</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:369</td>
+<td title="Message">Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>3961</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.hql.ast.ASTQueryTranslatorFactory category">org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+<td>ASTQueryTranslatorFactory.java:24</td>
+<td title="Message">Using ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>3962</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:212</td>
+<td title="Message">Query language substitutions: {}</td>
+</tr>
+
+<tr>
+<td>3963</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:217</td>
+<td title="Message">JPA-QL strict compliance: enabled</td>
+</tr>
+
+<tr>
+<td>3963</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:222</td>
+<td title="Message">Second-level cache: enabled</td>
+</tr>
+
+<tr>
+<td>3964</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:226</td>
+<td title="Message">Query cache: disabled</td>
+</tr>
+
+<tr>
+<td>3965</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:356</td>
+<td title="Message">Cache provider: org.hibernate.cache.NoCacheProvider</td>
+</tr>
+
+<tr>
+<td>3966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:241</td>
+<td title="Message">Optimize cache for minimal puts: disabled</td>
+</tr>
+
+<tr>
+<td>3967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:250</td>
+<td title="Message">Structured second-level cache entries: disabled</td>
+</tr>
+
+<tr>
+<td>3977</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:277</td>
+<td title="Message">Statistics: disabled</td>
+</tr>
+
+<tr>
+<td>3978</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:281</td>
+<td title="Message">Deleted entity synthetic identifier rollback: disabled</td>
+</tr>
+
+<tr>
+<td>3980</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:296</td>
+<td title="Message">Default entity-mode: pojo</td>
+</tr>
+
+<tr>
+<td>4021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryImpl category">org.hibernate.impl.SessionFactoryImpl</td>
+<td>SessionFactoryImpl.java:161</td>
+<td title="Message">building session factory</td>
+</tr>
+
+<tr>
+<td>4479</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryObjectFactory category">org.hibernate.impl.SessionFactoryObjectFactory</td>
+<td>SessionFactoryObjectFactory.java:82</td>
+<td title="Message">Not binding factory to JNDI, no JNDI name configured</td>
+</tr>
+
+<tr>
+<td>4486</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:115</td>
+<td title="Message">Running hbm2ddl schema update</td>
+</tr>
+
+<tr>
+<td>4487</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:126</td>
+<td title="Message">fetching database metadata</td>
+</tr>
+
+<tr>
+<td>4829</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:138</td>
+<td title="Message">updating schema</td>
+</tr>
+
+<tr>
+<td>6246</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>6247</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [timestamp, user_name, request_id, assigned_admin, status, request_type, description]</td>
+</tr>
+
+<tr>
+<td>6248</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>6250</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002897272]</td>
+</tr>
+
+<tr>
+<td>7375</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER</td>
+</tr>
+
+<tr>
+<td>7377</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [first_name, user_name, tablename, last_name, user_password, user_id]</td>
+</tr>
+
+<tr>
+<td>7378</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>7379</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896199, sys_c002896200]</td>
+</tr>
+
+<tr>
+<td>8355</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER_ROLES</td>
+</tr>
+
+<tr>
+<td>8356</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [role_id, tablename, role, user_id]</td>
+</tr>
+
+<tr>
+<td>8357</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: [fk7c98db27249b97ac]</td>
+</tr>
+
+<tr>
+<td>8359</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896203]</td>
+</tr>
+
+<tr>
+<td>8360</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:160</td>
+<td title="Message">schema update complete</td>
+</tr>
+
+<tr>
+<td>8475</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.UserRoles</td>
+</tr>
+
+<tr>
+<td>8477</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.UserRoles on table trading_user_roles</td>
+</tr>
+
+<tr>
+<td>8482</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.request.Request</td>
+</tr>
+
+<tr>
+<td>8483</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.request.Request on table REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>8489</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.User</td>
+</tr>
+
+<tr>
+<td>8491</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.User on table trading_user</td>
+</tr>
+
+<tr>
+<td>8502</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.CollectionBinder category">org.hibernate.cfg.annotations.CollectionBinder</td>
+<td>CollectionBinder.java:581</td>
+<td title="Message">Mapping collection: com.fdmgroup.User.User.role -&gt; trading_user_roles</td>
+</tr>
+
+<tr>
+<td>8517</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:50</td>
+<td title="Message">C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE</td>
+</tr>
+
+<tr>
+<td>8518</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:51</td>
+<td title="Message">Connection properties: {user=williamwellspring, password=****, autocommit=true, release_mode=auto}</td>
+</tr>
+
+<tr>
+<td>8519</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:54</td>
+<td title="Message">autocommit mode: true</td>
+</tr>
+
+<tr>
+<td>8592</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource category">com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource</td>
+<td>AbstractPoolBackedDataSource.java:462</td>
+<td title="Message">Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d037a9d3 [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@83a5b959 [ acquireIncrement -&gt; 1, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 2s30hh90c9088w1s8bhc6|1e4bece, idleConnectionTestPeriod -&gt; 3000, initialPoolSize -&gt; 2, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 300, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 3, maxStatements -&gt; 50, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 2, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@62de22c0 [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|ddcd98, jdbcUrl -&gt; jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE, properties -&gt; {user=******, password=******, autocommit=true, release_mode=auto} ], preferredTestQuery -&gt; null, propertyCycle -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|188c838, numHelperThreads -&gt; 3 ]</td>
+</tr>
+
+<tr>
+<td>9364</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:81</td>
+<td title="Message">RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production</td>
+</tr>
+
+<tr>
+<td>9365</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:82</td>
+<td title="Message">JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0</td>
+</tr>
+
+<tr>
+<td>9367</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.dialect.Dialect category">org.hibernate.dialect.Dialect</td>
+<td>Dialect.java:141</td>
+<td title="Message">Using dialect: org.hibernate.dialect.OracleDialect</td>
+</tr>
+
+<tr>
+<td>9368</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionFactoryFactory category">org.hibernate.transaction.TransactionFactoryFactory</td>
+<td>TransactionFactoryFactory.java:34</td>
+<td title="Message">Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory</td>
+</tr>
+
+<tr>
+<td>9370</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionManagerLookupFactory category">org.hibernate.transaction.TransactionManagerLookupFactory</td>
+<td>TransactionManagerLookupFactory.java:33</td>
+<td title="Message">No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)</td>
+</tr>
+
+<tr>
+<td>9371</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:134</td>
+<td title="Message">Automatic flush during beforeCompletion(): disabled</td>
+</tr>
+
+<tr>
+<td>9372</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:138</td>
+<td title="Message">Automatic session close at end of transaction: disabled</td>
+</tr>
+
+<tr>
+<td>9373</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:145</td>
+<td title="Message">JDBC batch size: 15</td>
+</tr>
+
+<tr>
+<td>9374</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:148</td>
+<td title="Message">JDBC batch updates for versioned data: disabled</td>
+</tr>
+
+<tr>
+<td>9375</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:153</td>
+<td title="Message">Scrollable result sets: enabled</td>
+</tr>
+
+<tr>
+<td>9376</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:161</td>
+<td title="Message">JDBC3 getGeneratedKeys(): disabled</td>
+</tr>
+
+<tr>
+<td>9377</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:169</td>
+<td title="Message">Connection release mode: auto</td>
+</tr>
+
+<tr>
+<td>9378</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:196</td>
+<td title="Message">Default batch fetch size: 1</td>
+</tr>
+
+<tr>
+<td>9379</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:200</td>
+<td title="Message">Generate SQL with comments: enabled</td>
+</tr>
+
+<tr>
+<td>9380</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:204</td>
+<td title="Message">Order SQL updates by primary key: disabled</td>
+</tr>
+
+<tr>
+<td>9381</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:369</td>
+<td title="Message">Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>9382</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.hql.ast.ASTQueryTranslatorFactory category">org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+<td>ASTQueryTranslatorFactory.java:24</td>
+<td title="Message">Using ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>9383</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:212</td>
+<td title="Message">Query language substitutions: {}</td>
+</tr>
+
+<tr>
+<td>9384</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:217</td>
+<td title="Message">JPA-QL strict compliance: enabled</td>
+</tr>
+
+<tr>
+<td>9385</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:222</td>
+<td title="Message">Second-level cache: enabled</td>
+</tr>
+
+<tr>
+<td>9386</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:226</td>
+<td title="Message">Query cache: disabled</td>
+</tr>
+
+<tr>
+<td>9387</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:356</td>
+<td title="Message">Cache provider: org.hibernate.cache.NoCacheProvider</td>
+</tr>
+
+<tr>
+<td>9388</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:241</td>
+<td title="Message">Optimize cache for minimal puts: disabled</td>
+</tr>
+
+<tr>
+<td>9389</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:250</td>
+<td title="Message">Structured second-level cache entries: disabled</td>
+</tr>
+
+<tr>
+<td>9390</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:277</td>
+<td title="Message">Statistics: disabled</td>
+</tr>
+
+<tr>
+<td>9391</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:281</td>
+<td title="Message">Deleted entity synthetic identifier rollback: disabled</td>
+</tr>
+
+<tr>
+<td>9392</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:296</td>
+<td title="Message">Default entity-mode: pojo</td>
+</tr>
+
+<tr>
+<td>9404</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryImpl category">org.hibernate.impl.SessionFactoryImpl</td>
+<td>SessionFactoryImpl.java:161</td>
+<td title="Message">building session factory</td>
+</tr>
+
+<tr>
+<td>9419</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryObjectFactory category">org.hibernate.impl.SessionFactoryObjectFactory</td>
+<td>SessionFactoryObjectFactory.java:82</td>
+<td title="Message">Not binding factory to JNDI, no JNDI name configured</td>
+</tr>
+
+<tr>
+<td>9420</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:115</td>
+<td title="Message">Running hbm2ddl schema update</td>
+</tr>
+
+<tr>
+<td>9421</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:126</td>
+<td title="Message">fetching database metadata</td>
+</tr>
+
+<tr>
+<td>9659</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:138</td>
+<td title="Message">updating schema</td>
+</tr>
+
+<tr>
+<td>10926</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>10927</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [timestamp, user_name, request_id, assigned_admin, status, request_type, description]</td>
+</tr>
+
+<tr>
+<td>10928</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>10929</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002897272]</td>
+</tr>
+
+<tr>
+<td>12077</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER</td>
+</tr>
+
+<tr>
+<td>12078</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [first_name, user_name, tablename, last_name, user_password, user_id]</td>
+</tr>
+
+<tr>
+<td>12079</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>12080</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896199, sys_c002896200]</td>
+</tr>
+
+<tr>
+<td>13059</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER_ROLES</td>
+</tr>
+
+<tr>
+<td>13061</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [role_id, tablename, role, user_id]</td>
+</tr>
+
+<tr>
+<td>13062</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: [fk7c98db27249b97ac]</td>
+</tr>
+
+<tr>
+<td>13063</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896203]</td>
+</tr>
+
+<tr>
+<td>13065</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:160</td>
+<td title="Message">schema update complete</td>
+</tr>
+
+<tr>
+<td>13411</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.UserRoles</td>
+</tr>
+
+<tr>
+<td>13412</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.UserRoles on table trading_user_roles</td>
+</tr>
+
+<tr>
+<td>13417</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.request.Request</td>
+</tr>
+
+<tr>
+<td>13418</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.request.Request on table REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>13425</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.AnnotationBinder category">org.hibernate.cfg.AnnotationBinder</td>
+<td>AnnotationBinder.java:387</td>
+<td title="Message">Binding entity from annotated class: com.fdmgroup.User.User</td>
+</tr>
+
+<tr>
+<td>13426</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.EntityBinder category">org.hibernate.cfg.annotations.EntityBinder</td>
+<td>EntityBinder.java:340</td>
+<td title="Message">Bind entity com.fdmgroup.User.User on table trading_user</td>
+</tr>
+
+<tr>
+<td>13435</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.annotations.CollectionBinder category">org.hibernate.cfg.annotations.CollectionBinder</td>
+<td>CollectionBinder.java:581</td>
+<td title="Message">Mapping collection: com.fdmgroup.User.User.role -&gt; trading_user_roles</td>
+</tr>
+
+<tr>
+<td>13449</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:50</td>
+<td title="Message">C3P0 using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE</td>
+</tr>
+
+<tr>
+<td>13450</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:51</td>
+<td title="Message">Connection properties: {user=williamwellspring, password=****, autocommit=true, release_mode=auto}</td>
+</tr>
+
+<tr>
+<td>13450</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.connection.C3P0ConnectionProvider category">org.hibernate.connection.C3P0ConnectionProvider</td>
+<td>C3P0ConnectionProvider.java:54</td>
+<td title="Message">autocommit mode: true</td>
+</tr>
+
+<tr>
+<td>13526</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource category">com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource</td>
+<td>AbstractPoolBackedDataSource.java:462</td>
+<td title="Message">Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d14aafea [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@662cca68 [ acquireIncrement -&gt; 1, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 2s30hh90c9088w1s8bhc6|bfb545, idleConnectionTestPeriod -&gt; 3000, initialPoolSize -&gt; 2, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 300, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 3, maxStatements -&gt; 50, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 2, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@83e4eca6 [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|1e14de0, jdbcUrl -&gt; jdbc:oracle:thin:@oracle.fdmgroup.com:1521:XE, properties -&gt; {user=******, password=******, autocommit=true, release_mode=auto} ], preferredTestQuery -&gt; null, propertyCycle -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2s30hh90c9088w1s8bhc6|16d46d7, numHelperThreads -&gt; 3 ]</td>
+</tr>
+
+<tr>
+<td>18912</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:81</td>
+<td title="Message">RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production</td>
+</tr>
+
+<tr>
+<td>18914</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:82</td>
+<td title="Message">JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0</td>
+</tr>
+
+<tr>
+<td>18916</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.dialect.Dialect category">org.hibernate.dialect.Dialect</td>
+<td>Dialect.java:141</td>
+<td title="Message">Using dialect: org.hibernate.dialect.OracleDialect</td>
+</tr>
+
+<tr>
+<td>18917</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionFactoryFactory category">org.hibernate.transaction.TransactionFactoryFactory</td>
+<td>TransactionFactoryFactory.java:34</td>
+<td title="Message">Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory</td>
+</tr>
+
+<tr>
+<td>18918</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.transaction.TransactionManagerLookupFactory category">org.hibernate.transaction.TransactionManagerLookupFactory</td>
+<td>TransactionManagerLookupFactory.java:33</td>
+<td title="Message">No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)</td>
+</tr>
+
+<tr>
+<td>18919</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:134</td>
+<td title="Message">Automatic flush during beforeCompletion(): disabled</td>
+</tr>
+
+<tr>
+<td>18920</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:138</td>
+<td title="Message">Automatic session close at end of transaction: disabled</td>
+</tr>
+
+<tr>
+<td>18921</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:145</td>
+<td title="Message">JDBC batch size: 15</td>
+</tr>
+
+<tr>
+<td>18922</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:148</td>
+<td title="Message">JDBC batch updates for versioned data: disabled</td>
+</tr>
+
+<tr>
+<td>18923</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:153</td>
+<td title="Message">Scrollable result sets: enabled</td>
+</tr>
+
+<tr>
+<td>18925</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:161</td>
+<td title="Message">JDBC3 getGeneratedKeys(): disabled</td>
+</tr>
+
+<tr>
+<td>18926</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:169</td>
+<td title="Message">Connection release mode: auto</td>
+</tr>
+
+<tr>
+<td>18927</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:196</td>
+<td title="Message">Default batch fetch size: 1</td>
+</tr>
+
+<tr>
+<td>18928</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:200</td>
+<td title="Message">Generate SQL with comments: enabled</td>
+</tr>
+
+<tr>
+<td>18929</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:204</td>
+<td title="Message">Order SQL updates by primary key: disabled</td>
+</tr>
+
+<tr>
+<td>18930</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:369</td>
+<td title="Message">Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>18931</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.hql.ast.ASTQueryTranslatorFactory category">org.hibernate.hql.ast.ASTQueryTranslatorFactory</td>
+<td>ASTQueryTranslatorFactory.java:24</td>
+<td title="Message">Using ASTQueryTranslatorFactory</td>
+</tr>
+
+<tr>
+<td>18932</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:212</td>
+<td title="Message">Query language substitutions: {}</td>
+</tr>
+
+<tr>
+<td>18933</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:217</td>
+<td title="Message">JPA-QL strict compliance: enabled</td>
+</tr>
+
+<tr>
+<td>18934</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:222</td>
+<td title="Message">Second-level cache: enabled</td>
+</tr>
+
+<tr>
+<td>18934</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:226</td>
+<td title="Message">Query cache: disabled</td>
+</tr>
+
+<tr>
+<td>18935</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:356</td>
+<td title="Message">Cache provider: org.hibernate.cache.NoCacheProvider</td>
+</tr>
+
+<tr>
+<td>18936</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:241</td>
+<td title="Message">Optimize cache for minimal puts: disabled</td>
+</tr>
+
+<tr>
+<td>18937</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:250</td>
+<td title="Message">Structured second-level cache entries: disabled</td>
+</tr>
+
+<tr>
+<td>18939</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:277</td>
+<td title="Message">Statistics: disabled</td>
+</tr>
+
+<tr>
+<td>18940</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:281</td>
+<td title="Message">Deleted entity synthetic identifier rollback: disabled</td>
+</tr>
+
+<tr>
+<td>18940</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.cfg.SettingsFactory category">org.hibernate.cfg.SettingsFactory</td>
+<td>SettingsFactory.java:296</td>
+<td title="Message">Default entity-mode: pojo</td>
+</tr>
+
+<tr>
+<td>18953</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryImpl category">org.hibernate.impl.SessionFactoryImpl</td>
+<td>SessionFactoryImpl.java:161</td>
+<td title="Message">building session factory</td>
+</tr>
+
+<tr>
+<td>18972</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.impl.SessionFactoryObjectFactory category">org.hibernate.impl.SessionFactoryObjectFactory</td>
+<td>SessionFactoryObjectFactory.java:82</td>
+<td title="Message">Not binding factory to JNDI, no JNDI name configured</td>
+</tr>
+
+<tr>
+<td>18973</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:115</td>
+<td title="Message">Running hbm2ddl schema update</td>
+</tr>
+
+<tr>
+<td>18974</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:126</td>
+<td title="Message">fetching database metadata</td>
+</tr>
+
+<tr>
+<td>19210</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:138</td>
+<td title="Message">updating schema</td>
+</tr>
+
+<tr>
+<td>20481</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.REQUEST_TABLE</td>
+</tr>
+
+<tr>
+<td>20483</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [timestamp, user_name, request_id, assigned_admin, status, request_type, description]</td>
+</tr>
+
+<tr>
+<td>20484</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>20485</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002897272]</td>
+</tr>
+
+<tr>
+<td>21610</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER</td>
+</tr>
+
+<tr>
+<td>21612</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [first_name, user_name, tablename, last_name, user_password, user_id]</td>
+</tr>
+
+<tr>
+<td>21613</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: []</td>
+</tr>
+
+<tr>
+<td>21614</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896199, sys_c002896200]</td>
+</tr>
+
+<tr>
+<td>22586</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:40</td>
+<td title="Message">table found: WILLIAMWELLSPRING.TRADING_USER_ROLES</td>
+</tr>
+
+<tr>
+<td>22588</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:41</td>
+<td title="Message">columns: [role_id, tablename, role, user_id]</td>
+</tr>
+
+<tr>
+<td>22589</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:43</td>
+<td title="Message">foreign keys: [fk7c98db27249b97ac]</td>
+</tr>
+
+<tr>
+<td>22590</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
+<td>TableMetadata.java:44</td>
+<td title="Message">indexes: [sys_c002896203]</td>
+</tr>
+
+<tr>
+<td>22591</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
+<td>SchemaUpdate.java:160</td>
+<td title="Message">schema update complete</td>
+</tr>
+
+<tr>
+<td>22682</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:454</td>
+<td title="Message">FrameworkServlet 'dispatcher': initialization started</td>
+</tr>
+
+<tr>
+<td>22698</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.context.support.XmlWebApplicationContext category">org.springframework.web.context.support.XmlWebApplicationContext</td>
+<td>AbstractApplicationContext.java:510</td>
+<td title="Message">Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Feb 13 11:49:05 EST 2014]; root of context hierarchy</td>
+</tr>
+
+<tr>
+<td>22702</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.beans.factory.xml.XmlBeanDefinitionReader category">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
+<td>XmlBeanDefinitionReader.java:315</td>
+<td title="Message">Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]</td>
+</tr>
+
+<tr>
+<td>23225</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>DefaultListableBeanFactory.java:598</td>
+<td title="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e5c15: defining beans [org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,loginController,requestController,userController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy</td>
+</tr>
+
+<tr>
+<td>23339</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping category">org.springframework.web.servlet.handler.SimpleUrlHandlerMapping</td>
+<td>AbstractUrlHandlerMapping.java:315</td>
+<td title="Message">Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'</td>
+</tr>
+
+<tr>
+<td>23405</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.LoginController.loginController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23406</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.LoginController.submitLoginController(java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23407</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/returnHome],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.LoginController.returnHomeWhileLoggedIn(com.fdmgroup.User.User,javax.servlet.http.HttpSession,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23408</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/account],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.LoginController.viewAccountController(javax.servlet.http.HttpSession,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23408</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.LoginController.loggingOut(org.springframework.web.bind.support.SessionStatus,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23411</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/addrequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.addRequestController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23412</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/submitrequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.submitRequestController(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23412</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/deleteCompletedRequests],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.completeRequestController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23413</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/executeDeleteCompletedRequests],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.submitCompleteReq(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23414</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/viewAllRequests],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.viewAllRequestController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23416</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/viewOneRequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.viewOneRequestController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23417</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/submitToViewOneRequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.submitViewOneRequestController(java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23418</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/updateRequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.updateRequestController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23419</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/submitUpdatedRequest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.submitUpdatedRequestController(java.lang.String,javax.servlet.http.HttpSession,java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23420</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/viewRequestsByStatus],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.viewRequestByStatusController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23420</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/submitViewRequestByStatus],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.RequestController.submitViewRequestByStatusController(java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23423</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/unbanUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.unbanUser(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23424</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/removeUserPermissions],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.removePermissions(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23425</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.displayAddUser(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23426</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/createdUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.displayCreatedUser(com.fdmgroup.User.UserRoles,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23427</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/removeUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.displayRemoveUser(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23428</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/userDeleted],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.displayDeletedUser(java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23428</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/banUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.banAUser(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23429</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/userIsBanned],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.userIsBanned(java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23430</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/permissionRestored],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.restoredPermissions(java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23431</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/addPermissions],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.addUserPermission(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23432</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/userPermissionsAdded],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.permissionsAdded(java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23433</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/permissionsRemoved],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.permissionsRemoved(java.lang.String,java.lang.String,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23434</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/returnPermissions],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.returnPermissions(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23435</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/permissionsReturned],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.permissionsReturned(java.lang.String,com.fdmgroup.Crud.Crud&lt;com.fdmgroup.Crud.Storable&gt;,org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23436</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:179</td>
+<td title="Message">Mapped &quot;{[/viewAllUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.fdmgroup.controller.UserController.viewAllUsersController(org.springframework.ui.Model)</td>
+</tr>
+
+<tr>
+<td>23689</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:473</td>
+<td title="Message">FrameworkServlet 'dispatcher': initialization completed in 1007 ms</td>
+</tr>
+
+<tr>
+<td>69157</td>
+<td title="http-8088-1 thread">http-8088-1</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.springframework.web.servlet.PageNotFound category">org.springframework.web.servlet.PageNotFound</td>
+<td>DispatcherServlet.java:1108</td>
+<td title="Message">No mapping found for HTTP request with URI [/TradePlatformAdmin/WEB-INF/views/com.fdmgroup.User.UserType] in DispatcherServlet with name 'dispatcher'</td>
+</tr>
+
+<tr>
+<td>69171</td>
+<td title="http-8088-1 thread">http-8088-1</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.springframework.web.servlet.PageNotFound category">org.springframework.web.servlet.PageNotFound</td>
+<td>DispatcherServlet.java:1108</td>
+<td title="Message">No mapping found for HTTP request with URI [/TradePlatformAdmin/WEB-INF/views/com.fdmgroup.request.RequestType] in DispatcherServlet with name 'dispatcher'</td>
+</tr>
+
+<tr>
+<td>69175</td>
+<td title="http-8088-1 thread">http-8088-1</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.springframework.web.servlet.PageNotFound category">org.springframework.web.servlet.PageNotFound</td>
+<td>DispatcherServlet.java:1108</td>
+<td title="Message">No mapping found for HTTP request with URI [/TradePlatformAdmin/WEB-INF/views/com.fdmgroup.request.RequestStatus] in DispatcherServlet with name 'dispatcher'</td>
+</tr>
+
+<tr>
+<td>72668</td>
+<td title="http-8088-1 thread">http-8088-1</td>
+<td title="Level">INFO</td>
+<td title="com.fdmgroup.springaop.ConsoleLog category">com.fdmgroup.springaop.ConsoleLog</td>
+<td>ConsoleLog.java:74</td>
+<td title="Message">User is attempting to log in.</td>
+</tr>
+</table>
+<br>
+</body></html>

@@ -1,0 +1,107 @@
+html,body {
+	height: 100%;
+	margin: 0%;
+}
+
+.loginform {
+	margin: 0 auto;
+	width: 350px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 5em;
+	font-family: arial;
+}
+
+.loginform a {
+	color: #B2C2F0;
+}
+
+.loginform li {
+	list-style-type: none;
+}
+
+.header1 {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	background-color: white;
+	text-align: center;
+	z-index: 1;
+	float: left;
+	top: 0px;
+}
+
+.header2 {
+	background-image: url('splash-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 0em 10%;
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	background-color: white;
+	text-align: center;
+	z-index: 1;
+	float: left;
+	top: 10%;
+}
+
+.fdmcorelogo {
+	float: left;
+	position: absolute;
+	left: 5%;
+	top: 0%;
+}
+
+.headertitle {
+	font-family: arial;
+	font-size: 20px;
+	position: absolute;
+	left: 20%;
+}
+
+.centerPanel {
+	background-color: white;
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	top: 20%;
+	left: 20%;
+}
+
+.leftPanel {
+	background-color: #2E9AFE;
+	font-color: white;
+	text-align: center;
+	position: absolute;
+	float: left;
+	height: 100%;
+	width: 20%;
+	top: 20%;
+}
+
+.leftPanelText {
+	margin-top: 2em;
+	font-family: arial;
+}
+
+.leftPanelText li {
+	list-style-type: none;
+}
+
+.leftPanelHover li:hover {
+	background: #f90;
+	position: relative;
+}
+
+.footer {
+	position: fixed;
+	background-color: white;
+	clear: both;
+	text-align: center;
+	height: 1em;
+	width: 100%;
+	bottom: 0px;
+	z-index: 1;
+}

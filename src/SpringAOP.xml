@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+	<bean id="conLog" class="com.fdmgroup.springaop.ConsoleLog" />
+	<bean id="request" class="com.fdmgroup.request.Request"/>
+	<bean id="crud" class="com.fdmgroup.Crud.Crud"/>
+	<bean id="gateway" class="com.fdmgroup.gateway.Gateway"/>
+	<bean id="admingateway" class="com.fdmgroup.gateway.AdminGateway"/>
+	
+<!-- 	<bean id="user" class="com.fdmgroup.User.User"/> -->
+	
+	<aop:aspectj-autoproxy/> 	
+	</beans>
